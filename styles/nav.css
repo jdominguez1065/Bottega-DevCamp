@@ -1,0 +1,118 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .logo {
+    margin-right: 50px;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 196px;
+    height: 100%;
+}
+
+.left-column > .title-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.title-links-wrapper > .title-wrapper {
+    color: #cea135; 
+    align-content: start;
+    margin-bottom: 7px;
+}
+
+.title-links-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-links-wrapper > .links-wrapper > .nav-link {
+    margin-right: 15px;
+    text-align: left;
+}
+
+.title-links-wrapper > .links-wrapper > .nav-link-2 {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.title-links-wrapper > .links-wrapper > .nav-link a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.title-links-wrapper > .links-wrapper > .nav-link a:hover {
+    color: #cea135;
+}
+
+.title-links-wrapper > .links-wrapper > .nav-link-2 a {
+    color: grey;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.title-links-wrapper > .links-wrapper > .nav-link-2 a:hover {
+    color: #cea135;
+}
+
+/* Right column styles */
+
+.navigation-wrapper > .right-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-column > .links-wrapper > .nav-link a.btn {
+    margin-right: 15px;
+    padding: 20px 25px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(75, 71, 71);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.right-column > .links-wrapper > .nav-link a.btn:hover {
+    background-color: rgb(117, 110, 110);
+}
+
+.right-column > .links-wrapper > .nav-link .fa-solid.fa-chevron-down {
+    color: #00CC00;
+}
+
+.right-column > .links-wrapper > .search-icon {
+    font-size: 2em;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.right-column > .links-wrapper > .search-icon a {
+    color: rgb(75, 71, 71);
+    transition: 0.5s;
+}
+
+.right-column > .links-wrapper > .search-icon a:hover {
+    color: rgb(117, 110, 110);
+}
