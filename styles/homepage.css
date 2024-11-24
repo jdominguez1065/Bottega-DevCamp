@@ -78,12 +78,15 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 8px;
 }
 
 .content-wrapper > .right-column > .top-text {
     margin-left: 10px;
     color: white;
+    font-size: 20px;
+    margin-bottom: -10px;
 }
 
 .content-wrapper > .right-column > .top-text .blue-text {
