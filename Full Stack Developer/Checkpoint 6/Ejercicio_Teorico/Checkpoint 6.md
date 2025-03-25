@@ -237,4 +237,11 @@ Además de los decoradores definidos *ex profeso* existen decoradores que Python
  Aquí publico mi primera imagen de Markdown
  <img src="./images/picture.jpg" alt="Description" width="50" height="50">
 
+Prueba con código latex
+ \begin{figure}
+   \includegraphics{./images/picture.jpg}
+   \caption{Caption with spaces}
+   \label{fig:example}
+\end{figure}
+
 
