@@ -235,5 +235,6 @@ Además de los decoradores definidos *ex profeso* existen decoradores que Python
  - `@abstractmethod`: utilizado en clases abstractas o clases padre para forzar que las clases hijas implementen algunos métodos.
 
  Aquí publico mi primera imagen de Markdown
- ![Primera imagen en Markdown](images/picture.jpg =100x200)
+ <img src="/images/picture.jpg" alt="Description" width="50" height="50">
+
 
