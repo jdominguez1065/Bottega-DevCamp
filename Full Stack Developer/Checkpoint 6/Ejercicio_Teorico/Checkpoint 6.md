@@ -2,7 +2,7 @@
 
 ## 1. ¿Para qué usamos Clases en Python?
 
-<img src="./images/class.jpg" alt="Clases de Python" width="500" height="500">
+<img src="./images/class.jpg" alt="Clases de Python" width="1200" height="500">
 
 Una **clase** es una estructura que permite definir objetos que poseen atributos y métodos. Esta actúa como una plantilla para crear un objeto determinado, que es una **instancia** de esa clase. Las clases constituyen el núcleo de la **programación orientada a objetos** (OOP, por sus siglas en inglés) Para construir una clase se debe utilizar la palabra clave **class** seguida del nombre de la clase y dos puntos (:). Por ejemplo, considere el siguiente bloque de código y su salida:
 ```python
