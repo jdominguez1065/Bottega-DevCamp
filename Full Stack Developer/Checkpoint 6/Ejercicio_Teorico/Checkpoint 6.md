@@ -210,7 +210,7 @@ En este código se ha definido la clase **Coche** cuyos atributos son **marca** 
 
 ## 3. ¿Cuáles son los tres verbos de API?
 
-<img src="./images/class.jpg" alt="Verbos de API" width="1200" height="500">
+<img src="./images/api_verbs.jpg" alt="Verbos de API" width="1200" height="500">
 
 Cuando se trabaja con APIs (para saber qué es una API véase la pregunta 5 de este documento) es fundamental el conocimiento de los verbos o métodos que emplea el protocolo HTTP. Estos verbos especifican la acción que el cliente (aplicación o navegador) desea realizar en el servidor. Existen diferentes verbos, cada uno de los cuales ejecuta una acción distinta. Los más utilizados son los siguientes:
 
