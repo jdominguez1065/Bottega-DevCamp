@@ -412,7 +412,7 @@ Existen muchas más funciones disponibles en Javascript para trabajar con cadena
 
 Una estructura condicional o de tipo **if** es una estructura que permite condicionar la ejecución de un bloque de código al cumplimiento de una o varias condiciones impuestas por el programador.  En la siguiente figura se puede ver un diagrama de flujo de esta estructura.
 
- <img src="./images/DiagramaFlujo.jpg" alt="Diagrama de flujo de la estructura condicional" width="500" height="1200">
+ <img src="./images/DiagramaFlujo.jpg" alt="Diagrama de flujo de la estructura condicional" width="1200" height="1200">
 
 De acuerdo a esta figura, se evalúa una condición. Si esta condición es verdadera o `true` se ejecuta el bloque de código. Si la condición no se cumple o es `false` puede ocurrir una de las siguientes cosas: se ignora el bloque de código, se ejecuta un bloque de código alternativo (`else`) o se evalúa otra condición (`else if`). 
 
