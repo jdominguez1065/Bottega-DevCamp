@@ -255,7 +255,7 @@ Aunque existen algunos otros tipos de datos no primitivos, los aquí expuestos s
 
 Las **cadenas** o **strings** se utiliza para almacenar cadenas de texto. Estas se pueden representar de tres formas distintas: con comillas simples (`'`), comillas dobles (`"`) o backticks (`). Javascript provee muchas funciones útiles para trabajar y manipular cadenas. En la siguiente figura se muestran algunas de ellas, aunque hay muchas más.
 
- <img src="./images/DataTypes.jpg" alt="Funciones de strings" width="1200" height="500">
+ <img src="./images/StringMethods.jpg" alt="Funciones de strings" width="1200" height="500">
 
 A continuación se describirán de forma detallada algunas de la funciones predefinidas que tiene Javascript para trabajar con cadenas.
 
