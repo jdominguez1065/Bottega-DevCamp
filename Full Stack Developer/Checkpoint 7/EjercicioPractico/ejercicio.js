@@ -5,6 +5,6 @@ function miFuncion(num1, num2, num3, num4) {
     } else {
         console.log('¡El número es mayor que 50!');
     }
-}
+};
 
 miFuncion(1, 2, 3, 4); 
