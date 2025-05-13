@@ -1,5 +1,7 @@
+/////////////////////////////////// Funciones y constantes ///////////////////////////////////
+
 // Función para pasar de una cadena con la hora en formato HH:MM a un objeto Date.
-let stringToDate = (cadena) => {
+const stringToDate = (cadena) => {
   const [horas, minutos] = cadena.split(":").map(Number);
   const hora = new Date();
   hora.setHours(horas);
@@ -63,7 +65,7 @@ const carta = {
 }
 
 // Caja de comentarios del camarero.
-let comentariosCamarero = ["¡Tiene buen gusto! A mí también me encanta ese plato.", 
+const comentariosCamarero = ["¡Tiene buen gusto! A mí también me encanta ese plato.", 
                            "Muy bien, veo que viene con hambre.",
                            "Una combinación ganadora, sin duda.",
                            "¡Perfecto! Va a salir muy satisfecho con esa elección.",
@@ -79,7 +81,7 @@ let comentariosCamarero = ["¡Tiene buen gusto! A mí también me encanta ese pl
                           ]
 
 // Función que imprime el menú en pantalla.
-let mostrarMenu = (carta, tipoComida) => {
+const mostrarMenu = (carta, tipoComida) => {
   alert(`Usted está reservando una mesa para ${tipoComida}.`)
   let cadena = 'El menú de hoy es el siguiente:'
   for (const clave in carta) {
@@ -94,7 +96,7 @@ let mostrarMenu = (carta, tipoComida) => {
 }
 
 // Función que imprime una parte de la carta y permite seleccionar un plato.
-let seleccionarPlato = (numeroPlato, platos, precios) => {
+const seleccionarPlato = (numeroPlato, platos, precios) => {
   let cadena = `Elija un ${numeroPlato.toLowerCase()} de la siguiente lista:\n\n`
   for (const [i, plato] of platos.entries()) {
     const precio = precios[i];
@@ -116,7 +118,7 @@ let seleccionarPlato = (numeroPlato, platos, precios) => {
 }
 
 // Función que imprime en pantalla un resumen de la reserva.
-let resumenReserva = (horaReserva, eleccionesCliente, total) => {
+const resumenReserva = (horaReserva, eleccionesCliente, total) => {
   let cadena = 'Los detalles de su reserva son los siguientes:'
   cadena += `\n\n   Hora de reserva: ${horaReserva} h`
   for (const eleccion in eleccionesCliente) {
@@ -128,6 +130,7 @@ let resumenReserva = (horaReserva, eleccionesCliente, total) => {
 }
 
 ///////////////////////////////////////////// El programa empieza aquí ////////////////////////////////////////////////////
+
 // Se lee la hora de reserva.
 let horaStr = prompt(`Bienvenido al restaurante de DevCamp.
 Nuestro horario es el siguiente:
