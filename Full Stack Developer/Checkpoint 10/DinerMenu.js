@@ -113,6 +113,9 @@ const seleccionarPlato = (numeroPlato, platos, precios) => {
         boolean = false;
       }
     }
+    if (boolean === true) {
+        alert('El plato introducido no se corresponde con ninguno de la carta. Por favor, introduzca nuevamente el plato que desea.')
+      }
   } while (boolean);
   return [platoSeleccionado, precioSeleccionado];
 }
