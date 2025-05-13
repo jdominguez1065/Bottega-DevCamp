@@ -127,6 +127,7 @@ let resumenReserva = (horaReserva, eleccionesCliente, total) => {
   alert(cadena);
 }
 
+///////////////////////////////////////////// El programa empieza aquí ////////////////////////////////////////////////////
 // Se lee la hora de reserva.
 let horaStr = prompt(`Bienvenido al restaurante de DevCamp.
 Nuestro horario es el siguiente:
